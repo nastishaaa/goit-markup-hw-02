@@ -1,0 +1,76 @@
+body{
+    font-family: 'Roboto', Raleway, sans-serif;
+    background-color: white;
+    color: #434455;
+    line-height: 1.5;
+}
+
+.navigation-size{
+    font-weight: 500;
+}
+button{
+    background-color: #4D5AE5;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
+
+button:active{
+    background-color: rgb(63, 28, 145);
+}
+.change-color:hover{
+    color: red;
+}
+.change-color:active{
+    color:rgb(52, 2, 105);
+}
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 3.75;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.first-properties{
+    background-color: #2E2F42;
+    color: white;
+}
+
+.second-properties{
+    background-color: #F4F4FD;
+}
+
+.portfolio-color{
+    background-color: #E7E9FC;
+}
+
+.footer-properties{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.logo{
+    font-weight: 700;
+    line-height: 1.3;
+}

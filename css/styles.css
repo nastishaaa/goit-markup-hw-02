@@ -10,17 +10,19 @@ header{
 }
 
 .logo-studio{
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 .navigation-properties{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    line-height: 1.5;
+    font-size: 16px;
 }
 .butt{
     cursor: pointer;
     font-weight: 500;
-    font-family: "Roboto";
+    font-family: inherit;
     background-color: #4D5AE5;
     font-size: 16px;
     line-height: 1.5;
@@ -36,24 +38,35 @@ header{
     color: #404bbf;
 }
 
+.navigation-properties:focus{
+    color: #404bbf; 
+}
 .butt:hover{
     background-color: #404BBF;
 }
 
-.butt:active{
+.butt:focus{
     background-color: #404BBF;
 }
+
+.address-properties{
+    font-style: normal;
+}
+
 .change-color{
     letter-spacing: 0.02em;
     color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
-.change-color:hover{
+.change-color:hover, .change-color:active, .change-color:focus{
     color: #404bbf;
 }
-.change-color:active{
-    color: #404bbf
-}
 
+.first-section{
+    background-color: #2e2f42;
+}
 .first-properties{
     font-size: 56px;
     font-weight: 700;
@@ -64,6 +77,21 @@ header{
 
 }
 
+.first-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.first-list-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+
+}
 .section-title{
     font-size: 36px;
     font-weight: 700;
@@ -78,6 +106,7 @@ header{
     background-color: #FFFFFF;
 
 }
+
 .list-title{
     font-size: 20px;
     font-weight: 500;
@@ -103,13 +132,6 @@ header{
     color: #2e2f42;
 }
 
-.second-list-paragraph{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
-}
-
 .second-properties{
     background-color: #F4F4FD;
 }
@@ -132,4 +154,10 @@ header{
     text-transform: uppercase;
     color: #4d5ae5;
 
+}
+
+.footer-paragraph{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em; 
 }

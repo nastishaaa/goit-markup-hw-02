@@ -149,14 +149,20 @@ header{
 
 }
 
-.footer-paragraph-f{
+.logo-studio-f{
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
     line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em; 
 }
 
-.footer-paragraph-h{
-    line-height: 1.5;
+.logo-studio-h{
     color: #2e2f42;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.footer-paragraph{
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #F4F4FD;
 }

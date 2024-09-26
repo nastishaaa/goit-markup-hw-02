@@ -5,8 +5,12 @@ body{
     line-height: 1.5;
 }
 
-header{
-    background-color: #E7E9FC;
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 .logo-studio{
@@ -123,10 +127,6 @@ header{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:  #2e2f42;
-}
-
-.second-properties{
-    background-color: #F4F4FD;
 }
 
 .portfolio-color{
